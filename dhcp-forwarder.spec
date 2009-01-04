@@ -11,8 +11,8 @@
 %{?_with_diet: %{expand: %%define build_diet 1}}
 
 %define name dhcp-forwarder
-%define version 0.7
-%define release %mkrel 5
+%define version 0.8
+%define release %mkrel 1
 
 Summary:	An DHCP relay agent
 Name:		%{name}
