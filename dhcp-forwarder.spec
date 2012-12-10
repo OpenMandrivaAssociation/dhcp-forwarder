@@ -99,3 +99,47 @@ install -m755 -d %{buildroot}/var/lib/dhcpfwd
 %{_mandir}/man1/*
 
 
+
+
+%changelog
+* Thu Dec 09 2010 Oden Eriksson <oeriksson@mandriva.com> 0.8-3mdv2011.0
++ Revision: 617577
+- the mass rebuild of 2010.0 packages
+
+* Sun Oct 04 2009 Oden Eriksson <oeriksson@mandriva.com> 0.8-2mdv2010.0
++ Revision: 453453
+- rebuild
+
+* Sun Jan 04 2009 Olivier Thauvin <nanardon@mandriva.org> 0.8-1mdv2009.1
++ Revision: 324864
+- 0.8
+
+* Wed Jul 23 2008 Thierry Vignaud <tv@mandriva.org> 0.7-5mdv2009.0
++ Revision: 244084
+- rebuild
+
+* Fri Dec 21 2007 Olivier Blin <oblin@mandriva.com> 0.7-3mdv2008.1
++ Revision: 136362
+- restore BuildRoot
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - kill re-definition of %%buildroot on Pixel's request
+
+
+* Sun Aug 06 2006 Olivier Thauvin <nanardon@mandriva.org> 0.7-3mdv2007.0
++ Revision: 53234
+- fix prereq
+- %%mkrel
+- Import dhcp-forwarder
+
+* Sat Sep 10 2005 Oden Eriksson <oeriksson@mandriva.com> 0.7-2mdk
+- rebuild
+
+* Sat Aug 21 2004 Lenny Cartier <lenny@mandrakesoft.com> 0.7-1mdk
+- 0.7
+
+* Thu Jan 01 2004 Michael Scherer <misc@mandrake.org> 0.5-1mdk
+- 0.5
+- rework initfile a little, and extract it instead of patching it.
+- various fix
+
