@@ -12,7 +12,7 @@
 
 %define name dhcp-forwarder
 %define version 0.8
-%define release %mkrel 3
+%define release 4
 
 Summary:	An DHCP relay agent
 Name:		%{name}
