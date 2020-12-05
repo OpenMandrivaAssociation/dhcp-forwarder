@@ -17,7 +17,7 @@ Release:	1
 License:	GPL
 Group:		System/Servers
 URL:		http://www.nongnu.org/dhcp-fwd/
-Source0:	%{name}-%{version}.tar.bz2
+Source0:	http://savannah.nongnu.org/download/dhcp-fwd/dhcp-forwarder-%{version}.tar.xz
 Source1:	dhcp-fwd.init.bz2
 BuildRoot:	%{_tmppath}/%{name}-%{version}-root
 Conflicts:	dhcpd-relay
