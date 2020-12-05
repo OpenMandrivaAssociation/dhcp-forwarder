@@ -10,14 +10,10 @@
 # rpm -ba|--rebuild --with 'xxx'
 %{?_with_diet: %{expand: %%define build_diet 1}}
 
-%define name dhcp-forwarder
-%define version 0.8
-%define release 4
-
 Summary:	An DHCP relay agent
-Name:		%{name}
-Version:	%{version}
-Release:	%{release}
+Name:		dhcp-forwarder
+Version:	0.11
+Release:	1
 License:	GPL
 Group:		System/Servers
 URL:		http://www.nongnu.org/dhcp-fwd/
