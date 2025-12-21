@@ -27,6 +27,11 @@ Requires(preun):	rpm-helper
 Requires(postun):   rpm-helper
 
 %if %{build_diet}
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	dietlibc-devel >= 0.20-1mdk
 %endif
 
